@@ -5,27 +5,30 @@
     }
     
     .container {
-        width: 100%;
-        min-height: 100vh;
-        background: linear-gradient(135deg, #c2e0ff, #ffb3d6);
-        padding: 10px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8caca;
+    background-image: radial-gradient(#ffffff 5px, transparent 5px);
+    background-size: 35px 35px;
+    padding: 10px;
     }
     
     .toDo {
         width: 100%;
         max-width: 500px;
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgb(247, 248, 152);
         margin: 100px auto 20px;
         padding: 40px 30px 70px;
         border-radius: 10px;
     }
     
     .toDo h1 {
-        margin-bottom: 30px;
-        font-size: 30px;
-        color: #232323;
-        display: flex;
-        align-items: center;
+    margin-bottom: 30px;
+    font-size: 31px;
+    color: #802469;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
     }
     
     .toDo h1 img {
@@ -37,7 +40,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #eaeaea;
+        background-color: #cdfcb2;
         border-radius: 30px;
         padding-left: 10px;
         margin-bottom: 25px;
@@ -56,7 +59,7 @@
         border: none;
         outline: none;
         padding: 10px 20px;
-        background: #7f49d7;
+        background: #802469;
         color: #ffffff;
         font-size: 16px;
         cursor: pointer;
@@ -113,3 +116,32 @@
         background: #ccc;
         color: #fff;
     }
+
+    .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    }
+
+    .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    }
+
+    .stats span {
+    background: #cdfcb2;
+    color: #802469;
+    padding: 10px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+    }
+
+    
